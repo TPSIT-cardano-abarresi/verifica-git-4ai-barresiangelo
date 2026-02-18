@@ -61,13 +61,9 @@ Completare le attività richieste e pubblicare tutto su GitHub con git push.
 **PARTE 2 — Correzione codice** 
 
 Il file programma/main.java contiene errori di compilazione.
-Inoltre il programma utilizza una classe **CASSA** che non esiste ancora.
+Inoltre il programma utilizza una classe **CASSA** che esiste ma è sbagliata e manca ancora il metodo paga.
 
-Dovrai: 
-1.Correggere il codice
-2.Creare la classe Cassa
-3.Lavorare su rami separati
-4.Fare il merge
+Lavora in branch diversi dal main per evidenziare i conflitti presenti e poi fare una merge.
 
 **1) Fix compilazione**
 
@@ -75,7 +71,7 @@ Dovrai:
       
       Commit richiesto: Fix compilazione
       
-**2) Creazione classe Cassa **
+**2) Fix2 classe Cassa **
 
       Il programma deve permettere di:
       -aggiungere prodotti (caffè, acqua, cornetto)
